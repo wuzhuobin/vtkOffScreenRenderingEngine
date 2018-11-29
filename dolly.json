@@ -1,0 +1,8 @@
+{
+  "dolly":
+  {
+    "last": [10, 10],
+    "current": [10, 100],
+    "motionFactor": 1
+  }
+}
