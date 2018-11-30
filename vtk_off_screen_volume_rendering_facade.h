@@ -15,7 +15,7 @@ namespace boost
 #include <memory>
 #include <string>
 #include <vector>
-class VTKOFFSCREENRENDERINGENGINE_EXPORT vtk_off_screen_volume_rendering_facade final
+class VTKOFFSCREENRENDERINGENGINE_DEPRECATED_EXPORT vtk_off_screen_volume_rendering_facade final
 {
 public: 
   vtk_off_screen_volume_rendering_facade(vtkImageData *imageData);

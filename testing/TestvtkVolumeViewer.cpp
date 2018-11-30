@@ -78,6 +78,7 @@ private Q_SLOTS:
     CreateImageData(imageData);
     Ptr<vtkVolumeViewer> viewer =
         Ptr<vtkVolumeViewer>::New();
+    viewer->SetOffScreenRendering(true);
     viewer->SetInputData(imageData);
     viewer->SetupInteractor(Ptr<vtkRenderWindowInteractor>::New());
     viewer->Render();

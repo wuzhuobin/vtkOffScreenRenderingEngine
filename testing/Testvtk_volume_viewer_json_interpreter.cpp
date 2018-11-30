@@ -79,11 +79,11 @@ private Q_SLOTS:
   }
   void cleanupTestCase()
   {
-  //  QFile(this->PRESET_SHIFT_OPACITY_SIZE).remove(); 
-  //  QFile(this->DOLLY).remove(); 
-  //  QFile(this->PAN).remove(); 
-  //  QFile(this->ROTATE).remove(); 
-  //  QFile(this->SPIN).remove();
+   QFile(this->PRESET_SHIFT_OPACITY_SIZE).remove(); 
+   QFile(this->DOLLY).remove(); 
+   QFile(this->PAN).remove(); 
+   QFile(this->ROTATE).remove(); 
+   QFile(this->SPIN).remove();
   }
   void init(){}
   void cleanup()

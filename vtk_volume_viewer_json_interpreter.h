@@ -12,7 +12,7 @@ class vtkInteractorStyleTrackballCamera;
 #include <string>
 #include <iostream>
 #include <array>
-class VTKOFFSCREENRENDERINGENGINE_EXPORT vtk_volume_viewer_json_interpreter final
+class VTKOFFSCREENRENDERINGENGINE_DEPRECATED_EXPORT vtk_volume_viewer_json_interpreter final
 {
 public:
   vtk_volume_viewer_json_interpreter(bool debug = false);

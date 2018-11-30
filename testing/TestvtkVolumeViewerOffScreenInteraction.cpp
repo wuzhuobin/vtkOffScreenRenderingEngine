@@ -88,6 +88,7 @@ private Q_SLOTS:
     style->SetCurrentStyleToTrackballCamera();
     vtkSmartPointer<vtkVolumeViewer> viewer = 
       vtkSmartPointer<vtkVolumeViewer>::New();
+    viewer->SetOffScreenRendering(true);
     viewer->SetSize(500, 500);
     viewer->SetPreset(vtkVolumeViewer::CT_AAA);
     viewer->SetInputData(this->image);
